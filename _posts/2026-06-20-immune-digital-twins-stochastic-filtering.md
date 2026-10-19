@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Inferring parameters in immune digital twins when the immune system will not sit still'
+title: "Inferring parameters in immune digital twins when the immune system will not sit still"
 date: 2026-06-20
 tags:
   - digital twins
@@ -8,7 +8,7 @@ tags:
   - immunology
 ---
 
-*Draft notes from my June 2026 talk at Washington State University. [Slides here](/assets/pdf/slides/WNAR26_slides.pdf).*
+_Draft notes from my June 2026 talk at Washington State University. [Slides here](/assets/pdf/slides/WNAR26_slides.pdf)._
 
 The digital twin paradigm rests on three things: a mechanistic software replica of the object, longitudinal data specific to that object, and an inference framework that keeps updating the model as the data arrives. For engineering systems this is hard but tractable. For the immune system it is harder, because the thing you are trying to track is genuinely stochastic — not merely noisily measured.
 
