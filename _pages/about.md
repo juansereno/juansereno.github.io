@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Incoming Postdoctoral Researcher</p>
+    <p>Incoming Postdoc Researcher</p>
     <p>University of Dubrovnik</p>
     <p>Dubrovnik, Croatia</p>
 
