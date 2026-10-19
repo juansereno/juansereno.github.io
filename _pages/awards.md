@@ -7,12 +7,6 @@ nav: true
 nav_order: 6
 ---
 
-### Doctoral Internal Scholarship
-
-<p class="post-meta">2018 · CONICET – National Council of Scientific and Technical Research, Argentina</p>
-
----
-
 ### First Place, Area of Suitable Technologies
 
 <p class="post-meta">2017 · National Competition of Best Final Degree Projects "Otto de Greiff", 21st edition, Bogotá, Colombia</p>
