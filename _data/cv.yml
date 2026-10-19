@@ -1,0 +1,156 @@
+cv:
+  name: Juan E. Sereno Mesa
+  label: Postdoctoral Research Fellow
+  email: jeserenom@gmail.com
+  location: Moscow, Idaho, USA
+  image: ""
+  summary: Control theory and mathematical modelling for biomedical systems — model predictive control, adaptive observers, reduced-order modelling and nonlinear mixed-integer optimization, applied to infectious diseases, diabetes and medical digital twins.
+
+  social_networks:
+    - network: ORCID
+      username: 0000-0002-8498-1277
+    - network: Google Scholar
+      username: KMzVSbMAAAAJ
+    - network: GitHub
+      username: juansereno
+    - network: LinkedIn
+      username: juan-sereno-3252b3232
+
+  sections:
+    Education:
+      - institution: Universidad Nacional del Litoral
+        location: Santa Fe, Argentina
+        url: https://www.unl.edu.ar/
+        area: Mathematical Engineering
+        studyType: Ph.D.
+        start_date: 2018
+        end_date: 2024
+        highlights:
+          - "Facultad de Ingeniería Química."
+          - "Thesis: Design of Predictive Controllers for Hybrid Systems: Application to Socio-Biomedical Processes."
+          - "Advisor: Prof. Alejandro Hernán González."
+
+      - institution: Universidad Nacional de Colombia
+        location: Medellín, Colombia
+        url: https://unal.edu.co/
+        area: Engineering – Industrial Automation
+        studyType: M.Sc.
+        start_date: 2017
+        end_date: 2021
+        highlights:
+          - "Facultad de Minas."
+          - "Thesis: Automatic Personalization of Glycemic Control Strategies for Patients with Type 1 Diabetes Mellitus."
+          - "Advisor: Prof. P. S. Rivadeneira."
+
+      - institution: Universidad Nacional de Colombia
+        location: Medellín, Colombia
+        url: https://unal.edu.co/
+        area: Control Engineering
+        studyType: B.E.
+        start_date: 2012
+        end_date: 2017
+        highlights:
+          - "Facultad de Minas."
+          - "Final project: Glycemic Control in Patients with Type 1 Diabetes Mellitus."
+          - "Advisor: Prof. P. S. Rivadeneira."
+
+    Experience:
+      - company: University of Dubrovnik
+        position: Postdoctoral Researcher
+        location: Dubrovnik, Croatia
+        start_date: 2026-11
+        end_date: present
+        summary: Conduction / InterCoML project — infinite-dimensional optimal control.
+
+      - company: University of Idaho
+        position: Postdoctoral Research Fellow
+        location: Moscow, Idaho, USA
+        start_date: 2024-09
+        end_date: 2026
+        summary: SMID Lab, Department of Mathematics and Statistical Science.
+        highlights:
+          - "Research: adaptive digital twins for personalized medicine."
+          - "Advisor: Prof. Esteban A. Hernandez-Vargas."
+
+      - company: Universidad Nacional del Litoral / INTEC-CONICET
+        position: Doctoral Scholarship Researcher
+        location: Santa Fe, Argentina
+        start_date: 2018-04
+        end_date: 2024-04
+        summary: Dynamical Systems and Control Group.
+        highlights:
+          - "Research: MPC controllers for switched systems adapted to epidemiological outbreak scenarios."
+          - "Advisor: Prof. Alejandro H. González."
+
+      - company: Universidad Nacional del Litoral
+        position: Teaching Assistant – Mathematics A
+        location: Santa Fe, Argentina
+        start_date: 2022
+        end_date: 2024
+        summary: Facultad de Ingeniería Química.
+
+      - company: Universidad Nacional del Litoral
+        position: Teaching Assistant – Model Predictive Control
+        location: Santa Fe, Argentina
+        start_date: 2021
+        end_date: 2021
+        summary: School of Chemical Engineering.
+
+      - company: Universidad Nacional de Colombia
+        position: Teaching Assistant – Analog Electronics II
+        location: Medellín, Colombia
+        start_date: 2014
+        end_date: 2015
+        summary: Facultad de Minas.
+
+    Awards:
+      - title: Doctoral Internal Scholarship
+        date: 2018
+        awarder: CONICET – National Council of Scientific and Technical Research, Argentina
+
+      - title: First Place, Area of Suitable Technologies
+        date: 2017
+        awarder: National Competition of Best Final Degree Projects "Otto de Greiff", 21st edition, Bogotá, Colombia
+
+      - title: Best Final Degree Project
+        date: 2017
+        awarder: Universidad Nacional de Colombia, Medellín campus, School of Mines
+
+    Projects:
+      - name: "PICT 2022, Nro. 2021-I-A-00544: Mathematical modeling and control of tuberculosis in Argentina"
+        summary: Funded by ANPCYT. Role, doctoral student.
+        start_date: 2022
+        end_date: 2024
+
+      - name: "PIP 2021, KE3 Nro. 112-2020010-2555-CO: Mathematical modeling and control of the COVID-19 pandemic in Argentina"
+        summary: Funded by CONICET. Role, doctoral student.
+        start_date: 2021
+        end_date: 2024
+
+      - name: "PICT 2019, Nro. 2019-01794: Design of economic MPC strategies for tracking time-varying trajectories"
+        summary: Funded by ANPCYT. Role, doctoral student.
+        start_date: 2019
+        end_date: 2024
+
+    Service:
+      - bullet: "**Co-chair**, Postdoc and Researchers Association, University of Idaho (2025–)."
+      - bullet: "**Ad hoc referee:** IEEE Control Systems Letters, Optimal Control Applications and Methods, Franklin Open, IEEE Conference on Decision and Control, American Control Conference, IEEE Latin American Robotics Symposium."
+      - bullet: "**Mentoring:** Jocelyn Leung (Texas A&M undergraduate), research internship at INTEC-CONICET, 2024."
+      - bullet: "**Memberships:** Society for Mathematical Biology (2026–), National Postdoctoral Association (2025–)."
+
+    Skills:
+      - name: Computational
+        icon: fa-solid fa-code
+        keywords: "Matlab, Python, CasADi, YALMIP, VS Code, LaTeX, HTML, CSS"
+
+    Interests:
+      - name: Research
+        icon: fa-solid fa-tag
+        keywords: "Model predictive control, adaptive observers, reduced-order modelling, nonlinear mixed-integer optimization, infectious diseases, diabetes, medical digital twins"
+
+    Languages:
+      - name: Spanish
+        summary: "Native"
+
+      - name: English
+        summary: "Professional working proficiency (TOEFL iBT 88, CEFR B2)"

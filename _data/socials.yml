@@ -1,0 +1,11 @@
+# this file contains the social media links and usernames of the author
+# the socials will be displayed in the order they are defined here
+# for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
+email: jeserenom@gmail.com # your email address
+scholar_userid: KMzVSbMAAAAJ # your Google Scholar ID
+orcid_id: 0000-0002-8498-1277 # your ORCID ID
+research_gate_profile: Juan-Sereno # your ResearchGate profile
+scopus_id: 57191610150 # your Scopus author ID
+linkedin_username: juan-sereno-3252b3232 # your LinkedIn user name
+github_username: juansereno # your GitHub user name
+cv_pdf: /assets/pdf/CV_Sereno.pdf # path to your CV PDF file
