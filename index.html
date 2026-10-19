@@ -7,22 +7,18 @@
   </script> </head> <body class="fixed-top-nav "> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation"> <div class="container"> <button class="navbar-toggler collapsed navbar-toggler-main" type="button" data-nav-toggle="navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse navbar-collapse-main" id="navbarNav"> <ul class="navbar-nav navbar-menu-list flex-nowrap"> <li class="nav-item active"> <a class="nav-link" href="/">about <span class="sr-only">(current)</span> </a> </li> <li class="nav-item "> <a class="nav-link" href="/research/">research </a> </li> <li class="nav-item "> <a class="nav-link" href="/publications/">publications </a> </li> <li class="nav-item "> <a class="nav-link" href="/talks/">talks </a> </li> <li class="nav-item "> <a class="nav-link" href="/teaching/">teaching </a> </li> <li class="nav-item "> <a class="nav-link" href="/service/">service </a> </li> <li class="nav-item "> <a class="nav-link" href="/awards/">awards </a> </li> <li class="nav-item "> <a class="nav-link" href="/blog/">blog </a> </li> <li class="nav-item "> <a class="nav-link" href="/cv/">CV </a> </li> <li class="nav-item"> <button id="search-toggle" type="button" title="Search" aria-label="Open search"> <span class="nav-link">ctrl k <i class="fa-solid fa-magnifying-glass"></i></span> </button> </li> <li class="toggle-container"> <button id="light-toggle" type="button" title="Change theme" aria-label="Change color theme"> <i class="fa-half-sun-moon" id="light-toggle-system"></i> <i class="fa-solid fa-moon" id="light-toggle-dark"></i> <i class="fa-solid fa-sun" id="light-toggle-light"></i> </button> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="container mt-5" role="main"> <section class="jes-hero" style="background-image: url('/assets/img/dubrovnik-hero.jpg');"> <style>
   body { overflow-x: clip; }
   .jes-hero { position: relative; left: 50%; width: 100vw; margin-left: -50vw; margin-top: -3rem; margin-bottom: 3rem;
-    height: calc(100vh - 92px); min-height: 420px; background-size: cover; background-position: center; display: flex; align-items: center; }
+    height: 45vh; min-height: 300px; max-height: 480px; background-size: cover; background-position: center 55%; display: flex; align-items: center; }
   .jes-hero::before { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, rgba(5, 13, 24, 0.75) 0%, rgba(5, 13, 24, 0.5) 55%, rgba(5, 13, 24, 0.25) 100%); }
   .jes-hero-inner { position: relative; z-index: 1; width: 100%; max-width: 930px; margin: 0 auto; padding: 0 15px; color: #fff; }
-  .jes-hero h1 { color: #fff; font-size: clamp(2.2rem, 5vw, 4rem); font-weight: 700; margin: 0 0 0.75rem; text-shadow: 0 2px 12px rgba(0, 0, 0, 0.45); }
+  .jes-hero h1 { color: #fff; font-size: clamp(2rem, 4.5vw, 3.4rem); font-weight: 700; margin: 0 0 0.75rem; text-shadow: 0 2px 12px rgba(0, 0, 0, 0.45); }
   .jes-hero p { color: #fff; font-size: clamp(1.05rem, 2.2vw, 1.6rem); margin: 0; text-shadow: 0 1px 8px rgba(0, 0, 0, 0.5); }
   .jes-typed { color: #fff; display: inline-block; min-height: 1.4em; border-bottom: 3px solid var(--global-theme-color); padding-bottom: 2px; margin-top: 0.4rem; }
   .jes-typed::after { content: "|"; margin-left: 2px; animation: jes-blink 0.8s step-end infinite; }
   @keyframes jes-blink { 50% { opacity: 0; } }
-  .jes-hero-down { position: absolute; z-index: 1; bottom: 1.5rem; left: 50%; transform: translateX(-50%); color: #fff; font-size: 1.6rem; opacity: 0.85; animation: jes-bounce 2s infinite; }
-  .jes-hero-down:hover { color: #fff; opacity: 1; }
-  @keyframes jes-bounce { 0%, 100% { transform: translate(-50%, 0); } 50% { transform: translate(-50%, 8px); } }
   .jes-hero-credit { position: absolute; z-index: 1; right: 0.75rem; bottom: 0.5rem; font-size: 0.7rem; color: rgba(255, 255, 255, 0.75); }
   .jes-hero-credit a { color: rgba(255, 255, 255, 0.9); text-decoration: underline; }
-  #jes-content { scroll-margin-top: 80px; }
-  @media (prefers-reduced-motion: reduce) { .jes-typed::after, .jes-hero-down { animation: none; } }
-</style> <div class="jes-hero-inner"> <h1>Juan E. Sereno, Ph.D.</h1> <p>Incoming Postdoctoral Researcher at the University of Dubrovnik</p> <p><span class="jes-typed" data-items="Mathematical Modelling|Model Predictive Control|Digital Twins|Biomedical Systems|Welcome to my homepage!">Mathematical Modelling</span></p> </div> <a class="jes-hero-down" href="#jes-content" aria-label="Scroll to content"><i class="fa-solid fa-chevron-down"></i></a> <div class="jes-hero-credit">Photo: <a href="https://commons.wikimedia.org/wiki/File:Dubrovnik_as_seen_from_Sr%C4%91_-_September_2017.jpg" rel="external nofollow noopener" target="_blank">Martin Falbisoner</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="external nofollow noopener" target="_blank">CC BY-SA 4.0</a> </div> <script>
+  @media (prefers-reduced-motion: reduce) { .jes-typed::after { animation: none; } }
+</style> <div class="jes-hero-inner"> <h1>Juan E. Sereno, Ph.D.</h1> <p>Incoming Postdoctoral Researcher at the University of Dubrovnik</p> <p><span class="jes-typed" data-items="We can only see a short distance ahead,|but we can see plenty there that needs to be done. — A. Turing|Welcome to my homepage!">We can only see a short distance ahead,</span></p> </div> <div class="jes-hero-credit">Photo: <a href="https://commons.wikimedia.org/wiki/File:Dubrovnik_as_seen_from_Sr%C4%91_-_September_2017.jpg" rel="external nofollow noopener" target="_blank">Martin Falbisoner</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="external nofollow noopener" target="_blank">CC BY-SA 4.0</a> </div> <script>
   (function () {
     var el = document.querySelector(".jes-typed");
     if (!el || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
@@ -32,14 +28,14 @@
       j += deleting ? -1 : 1;
       el.textContent = word.slice(0, j);
       var wait = deleting ? 40 : 90;
-      if (!deleting && j === word.length) { deleting = true; wait = 1600; }
+      if (!deleting && j === word.length) { deleting = true; wait = Math.max(1600, word.length * 45); }
       else if (deleting && j === 0) { deleting = false; i = (i + 1) % items.length; wait = 400; }
       setTimeout(tick, wait);
     }
     el.textContent = "";
     setTimeout(tick, 600);
   })();
-</script> </section> <div class="jes-layout" id="jes-content"> <style>
+</script> </section> <div class="jes-layout"> <style>
   .jes-layout { display: flex; gap: 2.5rem; align-items: flex-start; }
   .jes-sidebar { flex: 0 0 220px; position: sticky; top: 90px; }
   .jes-main { flex: 1 1 auto; min-width: 0; }
