@@ -24,7 +24,7 @@ latest_posts:
   limit: 3
 ---
 
-From **1 November 2026** I will join the [University of Dubrovnik](https://conduction.unidu.hr/postdoc-position/) as a postdoctoral researcher on the Conduction / InterCoML project, working on infinite-dimensional optimal control.
+I was a postdoctoral researcher at the [University of Idaho](https://www.uidaho.edu/), in the Department of Mathematics and Statistical Science, where I worked in the [SMID Lab](https://www.systemsmedicine.de/) under the supervision of Prof. Esteban A. Hernandez-Vargas. From **1 November 2026** I will join the [University of Dubrovnik](https://conduction.unidu.hr/postdoc-position/) as a postdoctoral researcher on the Conduction / InterCoML project, working on infinite-dimensional optimal control.
 
 I obtained my Ph.D. in Mathematical Engineering from the [Universidad Nacional del Litoral](https://www.unl.edu.ar/), Argentina, under the supervision of Prof. Alejandro H. González, with a thesis on predictive controllers for hybrid systems applied to socio-biomedical processes. Before that I completed an M.Sc. in Industrial Automation and a B.E. in Control Engineering at the Universidad Nacional de Colombia.
 
