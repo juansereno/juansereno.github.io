@@ -12,10 +12,8 @@ hero:
   title: Juan E. Sereno, Ph.D.
   subtitle: Incoming Postdoctoral Researcher at the University of Dubrovnik
   typed:
-    - Mathematical Modelling
-    - Model Predictive Control
-    - Digital Twins
-    - Biomedical Systems
+    - We can only see a short distance ahead,
+    - but we can see plenty there that needs to be done. — A. Turing
     - Welcome to my homepage!
   credit: 'Photo: <a href="https://commons.wikimedia.org/wiki/File:Dubrovnik_as_seen_from_Sr%C4%91_-_September_2017.jpg">Martin Falbisoner</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>'
 
@@ -100,28 +98,23 @@ I am always glad to discuss research and new collaborations — feel free to [ge
 <style>
   body { overflow-x: clip; }
   .jes-hero { position: relative; left: 50%; width: 100vw; margin-left: -50vw; margin-top: -3rem; margin-bottom: 3rem;
-    height: calc(100vh - 92px); min-height: 420px; background-size: cover; background-position: center; display: flex; align-items: center; }
+    height: 45vh; min-height: 300px; max-height: 480px; background-size: cover; background-position: center 55%; display: flex; align-items: center; }
   .jes-hero::before { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, rgba(5, 13, 24, 0.75) 0%, rgba(5, 13, 24, 0.5) 55%, rgba(5, 13, 24, 0.25) 100%); }
   .jes-hero-inner { position: relative; z-index: 1; width: 100%; max-width: 930px; margin: 0 auto; padding: 0 15px; color: #fff; }
-  .jes-hero h1 { color: #fff; font-size: clamp(2.2rem, 5vw, 4rem); font-weight: 700; margin: 0 0 0.75rem; text-shadow: 0 2px 12px rgba(0, 0, 0, 0.45); }
+  .jes-hero h1 { color: #fff; font-size: clamp(2rem, 4.5vw, 3.4rem); font-weight: 700; margin: 0 0 0.75rem; text-shadow: 0 2px 12px rgba(0, 0, 0, 0.45); }
   .jes-hero p { color: #fff; font-size: clamp(1.05rem, 2.2vw, 1.6rem); margin: 0; text-shadow: 0 1px 8px rgba(0, 0, 0, 0.5); }
   .jes-typed { color: #fff; display: inline-block; min-height: 1.4em; border-bottom: 3px solid var(--global-theme-color); padding-bottom: 2px; margin-top: 0.4rem; }
   .jes-typed::after { content: "|"; margin-left: 2px; animation: jes-blink 0.8s step-end infinite; }
   @keyframes jes-blink { 50% { opacity: 0; } }
-  .jes-hero-down { position: absolute; z-index: 1; bottom: 1.5rem; left: 50%; transform: translateX(-50%); color: #fff; font-size: 1.6rem; opacity: 0.85; animation: jes-bounce 2s infinite; }
-  .jes-hero-down:hover { color: #fff; opacity: 1; }
-  @keyframes jes-bounce { 0%, 100% { transform: translate(-50%, 0); } 50% { transform: translate(-50%, 8px); } }
   .jes-hero-credit { position: absolute; z-index: 1; right: 0.75rem; bottom: 0.5rem; font-size: 0.7rem; color: rgba(255, 255, 255, 0.75); }
   .jes-hero-credit a { color: rgba(255, 255, 255, 0.9); text-decoration: underline; }
-  #jes-content { scroll-margin-top: 80px; }
-  @media (prefers-reduced-motion: reduce) { .jes-typed::after, .jes-hero-down { animation: none; } }
+  @media (prefers-reduced-motion: reduce) { .jes-typed::after { animation: none; } }
 </style>
   <div class="jes-hero-inner">
     <h1>{{ page.hero.title }}</h1>
     <p>{{ page.hero.subtitle }}</p>
     <p><span class="jes-typed" data-items="{{ page.hero.typed | join: '|' | escape }}">{{ page.hero.typed | first }}</span></p>
   </div>
-  <a class="jes-hero-down" href="#jes-content" aria-label="Scroll to content"><i class="fa-solid fa-chevron-down"></i></a>
   <div class="jes-hero-credit">{{ page.hero.credit }}</div>
 <script>
   (function () {
@@ -133,7 +126,7 @@ I am always glad to discuss research and new collaborations — feel free to [ge
       j += deleting ? -1 : 1;
       el.textContent = word.slice(0, j);
       var wait = deleting ? 40 : 90;
-      if (!deleting && j === word.length) { deleting = true; wait = 1600; }
+      if (!deleting && j === word.length) { deleting = true; wait = Math.max(1600, word.length * 45); }
       else if (deleting && j === 0) { deleting = false; i = (i + 1) % items.length; wait = 400; }
       setTimeout(tick, wait);
     }
@@ -143,7 +136,7 @@ I am always glad to discuss research and new collaborations — feel free to [ge
 </script>
 </section>
 
-<div class="jes-layout" id="jes-content">
+<div class="jes-layout">
 <style>
   .jes-layout { display: flex; gap: 2.5rem; align-items: flex-start; }
   .jes-sidebar { flex: 0 0 220px; position: sticky; top: 90px; }
