@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Control theory and mathematical modelling for biomedical systems.
+subtitle: Control theory • mathematical modelling • biomedical systems.
 
 profile:
   align: right
@@ -24,10 +24,10 @@ latest_posts:
   limit: 3
 ---
 
-I am a postdoctoral researcher at the [University of Idaho](https://www.uidaho.edu/), in the Department of Mathematics and Statistical Science, where I work in the [SMID Lab](https://www.systemsmedicine.de/) under the supervision of Prof. Esteban A. Hernandez-Vargas. From **1 November 2026** I will join the [University of Dubrovnik](https://conduction.unidu.hr/postdoc-position/) as a postdoctoral researcher on the Conduction / InterCoML project, working on infinite-dimensional optimal control.
+From **1 November 2026** I will join the [University of Dubrovnik](https://conduction.unidu.hr/postdoc-position/) as a postdoctoral researcher on the Conduction / InterCoML project, working on infinite-dimensional optimal control.
 
 I obtained my Ph.D. in Mathematical Engineering from the [Universidad Nacional del Litoral](https://www.unl.edu.ar/), Argentina, under the supervision of Prof. Alejandro H. González, with a thesis on predictive controllers for hybrid systems applied to socio-biomedical processes. Before that I completed an M.Sc. in Industrial Automation and a B.E. in Control Engineering at the Universidad Nacional de Colombia.
 
-My work sits between control theory and mathematical biology: **model predictive control**, **adaptive observers**, **reduced-order modelling** and **nonlinear mixed-integer optimization**, applied to infectious diseases, diabetes and medical digital twins. I am also co-chair of the University of Idaho Postdoc and Researchers Association.
+My work sits between control theory and mathematical biology: **model predictive control**, **adaptive observers**, **reduced-order modelling** and **nonlinear mixed-integer optimization**, applied to infectious diseases, diabetes and medical digital twins.
 
 I am always glad to discuss research and new collaborations — feel free to [get in touch](mailto:jeserenom@gmail.com).
