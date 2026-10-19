@@ -13,5 +13,3 @@ nav_order: 5
 - **Reviewer** for IEEE Control Systems Letters, Optimal Control Applications and Methods, Franklin Open, IEEE CDC, ACC and the IEEE Latin American Robotics Symposium.
 
 ## Research projects
-
-
