@@ -26,13 +26,14 @@ hero:
 sidebar:
   image: prof_pic.jpg
   name: Juan E. Sereno
-  bio: Control theory and mathematical modelling for biomedical systems.
+  bio: Control theory • mathematical modelling • biomedical systems.
   items:
     - icon: fa-solid fa-location-dot
       text: Dubrovnik, Croatia
+      url: https://maps.app.goo.gl/geJ6Bbeaj82wCTnZ6
     - icon: fa-solid fa-building-columns
       text: University of Dubrovnik
-      url: https://conduction.unidu.hr/postdoc-position/
+      url: https://www.unidu.hr/eng/
     - icon: fa-solid fa-envelope
       text: Email
       url: mailto:jeserenom@gmail.com
@@ -48,18 +49,6 @@ sidebar:
       text: ResearchGate
       url: https://www.researchgate.net/profile/Juan-Sereno
       color: "#00ccbb"
-    - icon: ai ai-scopus
-      text: Scopus
-      url: https://www.scopus.com/authid/detail.uri?authorId=57191610150
-      color: "#e9711c"
-    - icon: ai ai-clarivate
-      text: Web of Science
-      url: https://www.webofscience.com/wos/author/record/QKZ-2800-2026
-      color: "#5e33bf"
-    - icon: ai ai-arxiv
-      text: arXiv
-      url: https://arxiv.org/search/?searchtype=author&query=Sereno%2C+J+E
-      color: "#b31b1b"
     - icon: fa-brands fa-linkedin
       text: LinkedIn
       url: https://www.linkedin.com/in/juan-sereno-3252b3232
@@ -67,6 +56,10 @@ sidebar:
     - icon: fa-brands fa-github
       text: GitHub
       url: https://github.com/juansereno
+    - icon: fa-brands fa-bluesky
+      text: Bluesky
+      url: https://bsky.app/profile/jeserenom.bsky.social
+      color: "#1185fe"
     - icon: ai ai-cv
       text: CV (PDF)
       url: /assets/pdf/CV_Sereno.pdf
@@ -83,9 +76,9 @@ latest_posts:
 {% comment %} ------------------------- Edit your bio here ------------------------- {% endcomment %}
 {% capture bio %}
 
-From **1 November 2026** I will join the [University of Dubrovnik](https://conduction.unidu.hr/postdoc-position/) as a postdoctoral researcher on the Conduction / InterCoML project, working on infinite-dimensional optimal control. Until September 2026 I was a postdoctoral research fellow at the [University of Idaho](https://www.uidaho.edu/), in the Department of Mathematics and Statistical Science, where I worked in the [SMID Lab](https://www.systemsmedicine.de/) under the supervision of Prof. Esteban A. Hernandez-Vargas.
+From **1 November 2026** I will join the [University of Dubrovnik](https://www.unidu.hr/eng/) as a postdoctoral researcher on the [Conduction / InterCoML](https://conduction.unidu.hr/) project, working on infinite-dimensional optimal control under the supervision of Prof. dr. [Martin Lazar](https://www.martin-lazar.from.hr/). Until September 2026 I was a postdoctoral research fellow at the [University of Idaho](https://www.uidaho.edu/), in the Department of Mathematics and Statistical Science, where I worked in the [SMID Lab](https://www.systemsmedicine.de/) under the supervision of Prof. [Esteban A. Hernandez-Vargas](https://scholar.google.com/citations?user=mbo1boUAAAAJ&hl=en).
 
-I obtained my Ph.D. in Mathematical Engineering from the [Universidad Nacional del Litoral](https://www.unl.edu.ar/), Argentina, under the supervision of Prof. Alejandro H. González, with a thesis on predictive controllers for hybrid systems applied to socio-biomedical processes. Before that I completed an M.Sc. in Industrial Automation and a B.E. in Control Engineering at the Universidad Nacional de Colombia.
+I obtained my Ph.D. in Mathematical Engineering from the [Universidad Nacional del Litoral](https://www.unl.edu.ar/), Argentina, under the supervision of Prof. [Alejandro H. González](https://scholar.google.com/citations?user=1urE4oMAAAAJ&hl=en) Alejandro H. González, with a thesis on predictive controllers for hybrid systems applied to socio-biomedical processes. Before that I completed an M.Sc. in Industrial Automation and a B.E. in Control Engineering at the [Universidad Nacional de Colombia](https://unal.edu.co/).
 
 My work sits between control theory and mathematical biology: **model predictive control**, **adaptive observers**, **reduced-order modelling** and **nonlinear mixed-integer optimization**, applied to infectious diseases, diabetes and medical digital twins.
 
