@@ -16,7 +16,7 @@ nav_order: 6
     {% include figure.liquid loading="lazy" path="assets/img/awards/Otto.jpg" class="img-fluid rounded z-depth-1" alt="Receiving the Otto de Greiff award medal" zoomable=true %}
   </div>
 </div>
-<div class="caption">Receiving the medal at the Otto de Greiff national competition, Bogotá, 2017.</div>
+<div class="caption">Receiving the golden medal at the Otto de Greiff national competition, Bogotá, 2017.</div>
 
 ---
 
