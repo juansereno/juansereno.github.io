@@ -7,6 +7,21 @@ nav: true
 nav_order: 3
 ---
 
+### Adaptive Observers for Medical Digital Twins: A Framework for Personalized Medicine
+
+<p class="post-meta">October 26, 2026 · Invited talk · Semana IEIC 2026, Facultad de Minas, Universidad Nacional de Colombia, Medellín, Colombia · <a href="{{ '/assets/pdf/slides/SIEIC_Sereno_Talk_26_beamer.pdf' | relative_url }}">slides</a></p>
+
+_Observadores adaptativos para gemelos digitales médicos: un marco para la medicina personalizada._ Back at the Facultad de Minas, where I studied, I presented adaptive observers as the inference engine of medical digital twins. Starting from a motivating clinical case, I contrasted the traditional batch-based identification process with adaptive observers, which jointly estimate unmeasured states and patient-specific parameters as new data arrive, keeping the virtual replica of the patient synchronized with its physical counterpart.
+
+<div class="row">
+  <div class="col-sm mt-3 mt-md-0">{% include figure.liquid loading="lazy" path="assets/img/talks/SIEIC26-talk-01.jpg" class="img-fluid rounded z-depth-1" alt="Photo from the talk" zoomable=true %}</div>
+  <div class="col-sm mt-3 mt-md-0">{% include figure.liquid loading="lazy" path="assets/img/talks/SIEIC26-talk-02.jpg" class="img-fluid rounded z-depth-1" alt="Photo from the talk" zoomable=true %}</div>
+  <div class="col-sm mt-3 mt-md-0">{% include figure.liquid loading="lazy" path="assets/img/talks/SIEIC26-talk-03.jpg" class="img-fluid rounded z-depth-1" alt="Photo from the talk" zoomable=true %}</div>
+</div>
+<div class="caption">Semana IEIC 2026, Facultad de Minas, Universidad Nacional de Colombia, Medellín, October 2026.</div>
+
+---
+
 ### Parameter Inference in Immune Digital Twins: A Stochastic Adaptive Filtering Approach
 
 <p class="post-meta">June 16, 2026 · Invited talk · Washington State University, Pullman, WA, USA · <a href="{{ '/assets/pdf/slides/WNAR26_slides.pdf' | relative_url }}">slides</a></p>

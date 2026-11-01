@@ -10,7 +10,7 @@ permalink: /
 hero:
   image: dubrovnik-hero.jpg
   title: Juan E. Sereno, Ph.D.
-  subtitle: Incoming Postdoctoral Researcher at the University of Dubrovnik
+  subtitle: Postdoctoral Researcher at the University of Dubrovnik
   typed:
     - We can only see a short distance ahead,
     - but we can see plenty there that needs to be done. — A. Turing
@@ -76,7 +76,7 @@ latest_posts:
 {% comment %} ------------------------- Edit your bio here ------------------------- {% endcomment %}
 {% capture bio %}
 
-From **1 November 2026** I will join the [University of Dubrovnik](https://www.unidu.hr/eng/) as a postdoctoral researcher on the [Conduction / InterCoML](https://conduction.unidu.hr/) project, working on infinite-dimensional optimal control under the supervision of Prof. dr. [Martin Lazar](https://www.martin-lazar.from.hr/). Until September 2026 I was a postdoctoral research fellow at the [University of Idaho](https://www.uidaho.edu/), in the Department of Mathematics and Statistical Science, where I worked in the [SMID Lab](https://www.systemsmedicine.de/) under the supervision of Prof. [Esteban A. Hernandez-Vargas](https://scholar.google.com/citations?user=mbo1boUAAAAJ&hl=en).
+Since **1 November 2026** I am a postdoctoral researcher at the [University of Dubrovnik](https://www.unidu.hr/eng/), on the [Conduction / InterCoML](https://conduction.unidu.hr/) project, working on infinite-dimensional optimal control under the supervision of Prof. dr. [Martin Lazar](https://www.martin-lazar.from.hr/). Until September 2026 I was a postdoctoral research fellow at the [University of Idaho](https://www.uidaho.edu/), in the Department of Mathematics and Statistical Science, where I worked in the [SMID Lab](https://www.systemsmedicine.de/) under the supervision of Prof. [Esteban A. Hernandez-Vargas](https://scholar.google.com/citations?user=mbo1boUAAAAJ&hl=en).
 
 I obtained my Ph.D. in Mathematical Engineering from the [Universidad Nacional del Litoral](https://www.unl.edu.ar/), Argentina, under the supervision of Prof. [Alejandro H. González](https://scholar.google.com/citations?user=1urE4oMAAAAJ&hl=en), with a thesis on predictive controllers for hybrid systems applied to socio-biomedical processes. Before that I completed an M.Sc. in Industrial Automation and a B.E. in Control Engineering at the [Universidad Nacional de Colombia](https://unal.edu.co/).
 
