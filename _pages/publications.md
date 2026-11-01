@@ -13,6 +13,9 @@ nav_order: 2
 
 <div class="publications">
 
+<h2 class="bibliography">Preprints</h2>
+{% bibliography --group_by none --query @misc %}
+
 <h2 class="bibliography">Journal articles</h2>
 {% bibliography --group_by none --query @article %}
 
