@@ -24,7 +24,7 @@ _Observadores adaptativos para gemelos digitales médicos: un marco para la medi
 
 ### Parameter Inference in Immune Digital Twins: A Stochastic Adaptive Filtering Approach
 
-<p class="post-meta">June 16, 2026 · Invited talk · Washington State University, Pullman, WA, USA · <a href="{{ '/assets/pdf/slides/WNAR26_slides.pdf' | relative_url }}">slides</a></p>
+<p class="post-meta">June 16, 2026 · Conference talk · WNAR 2026, Western North American Region of the International Biometric Society · Washington State University, Pullman, WA, USA · <a href="{{ '/assets/pdf/slides/WNAR26_slides.pdf' | relative_url }}">slides</a></p>
 
 The Digital Twin paradigm relies on three fundamentals: a mechanistic software replica, longitudinal object-specific data, and a dynamic inference framework to iteratively update the model. While the potential for personalized medicine is substantial, the inherent stochasticity of the immune response makes iterative parameter inference a sweeping task. Here we present a data-driven framework for the iterative updating of immune digital twins using stochastic adaptive filters.
 
@@ -33,7 +33,7 @@ The Digital Twin paradigm relies on three fundamentals: a mechanistic software r
   <div class="col-sm mt-3 mt-md-0">{% include figure.liquid loading="lazy" path="assets/img/talks/WNAR26-02.jpg" class="img-fluid rounded z-depth-1" alt="Photo from the talk" zoomable=true %}</div>
   <div class="col-sm mt-3 mt-md-0">{% include figure.liquid loading="lazy" path="assets/img/talks/WNAR26-03.jpg" class="img-fluid rounded z-depth-1" alt="Photo from the talk" zoomable=true %}</div>
 </div>
-<div class="caption">Washington State University, Pullman, June 2026.</div>
+<div class="caption">WNAR 2026, Washington State University, Pullman, June 2026.</div>
 
 ---
 

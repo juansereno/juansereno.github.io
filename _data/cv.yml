@@ -47,7 +47,7 @@ cv:
         url: https://unal.edu.co/
         area: Control Engineering
         studyType: B.E.
-        start_date: 2012
+        start_date: 2013
         end_date: 2017
         highlights:
           - "Facultad de Minas."
@@ -136,7 +136,7 @@ cv:
       - bullet: "**Co-chair**, Postdoc and Researchers Association, University of Idaho (2025–2026)."
       - bullet: "**Ad hoc referee:** IEEE Control Systems Letters, Optimal Control Applications and Methods, Franklin Open, IEEE Conference on Decision and Control, American Control Conference, IEEE Latin American Robotics Symposium."
       - bullet: "**Mentoring:** Jocelyn Leung (Texas A&M undergraduate), research internship at INTEC-CONICET, 2024."
-      - bullet: "**Memberships:** Society for Mathematical Biology (2026–), National Postdoctoral Association (2025–)."
+      - bullet: "**Memberships:** Society for Mathematical Biology (2026–), National Postdoctoral Association (2025–2026)."
 
     Skills:
       - name: Computational

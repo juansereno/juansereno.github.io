@@ -26,6 +26,12 @@ Instructor. A hands-on short course for undergraduate students on estimating unm
 
 Teaching Assistant, 2022-2024. Supported lectures and problem sessions in the first-year calculus sequence for chemical engineering students, covering limits, differentiation, integration and an introduction to differential equations.
 
+### Model Predictive Control
+
+<p class="post-meta">Undergraduate and graduate course · Universidad Nacional del Litoral, Facultad de Ingeniería Química · Santa Fe, Argentina · 2021</p>
+
+Teaching Assistant, 2021. Ran tutorials and supported undergraduate and graduate students in model predictive control theory and its practical implementation, including uncertainty handling and robust control strategies.
+
 ### Analog Electronics II
 
 <p class="post-meta">Undergraduate course · Universidad Nacional de Colombia, Facultad de Minas · Medellín, Colombia · 2014–2015</p>
