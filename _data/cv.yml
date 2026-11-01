@@ -60,7 +60,7 @@ cv:
         location: Dubrovnik, Croatia
         start_date: 2026-11
         end_date: present
-        summary: Conduction / InterCoML project — infinite-dimensional optimal control.
+        summary: Conduction / InterCoML project — optimal control and controllability.
 
       - company: University of Idaho
         position: Postdoctoral Research Fellow
