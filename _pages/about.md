@@ -24,7 +24,7 @@ hero:
 # Remove "url" for an item that should not be a link.
 # ---------------------------------------------------------------------------
 sidebar:
-  image: prof_pic.jpg
+  image: prof_pic.jpeg
   name: Juan E. Sereno
   bio: Control theory • mathematical modelling • biomedical systems.
   items:
